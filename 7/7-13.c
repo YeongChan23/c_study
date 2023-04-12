@@ -2,23 +2,23 @@
 
 void main()
 {
-	int hap;
-	int a, b, c;
+	int i;
+	int a = 0, b = 0, c = 0, hap = 0;
 
-	printf ("ÇÕ°èÀÇ ½ÃÀÛ°ª ==> ");
+	printf("í•©ê³„ì˜ ì‹œìž‘ê°’ ==> ");
 	scanf("%d", &a);
 
-	printf("ÇÕ°èÀÇ ³¡°ª ==> ");
+	printf("í•©ê³„ì˜ ëê°’ ==> ");
 	scanf("%d", &b);
 
-	printf("¹è¼ö ==> ");
+	printf("ë°°ìˆ˜ ==> ");
 	scanf("%d", &c);
-	
 
+	for (i = a; i <= b; i++) {
+		if (i % c == 0) {
+			hap += i;
+		}
+	}
 
-
-
-
-	printf("%dºÎÅÍ %d±îÁöÀÇ %d¹è¼öÀÇ ÇÕ°è ==> %d \n", a, b, c, hap);
+	printf("%dë¶€í„° %dê¹Œì§€ì˜ %dë°°ìˆ˜ì˜ í•©ê³„ ==> %d". a, b, c, hap);
 }
-
