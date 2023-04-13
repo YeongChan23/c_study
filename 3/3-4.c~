@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main()
+{
+	printf("%d / %d = %f", 100, 200, 0.5);
+	printf("\n");
+
+	printf("%c %c", 'a', 'k');
+	printf("\n");
+
+	printf("%s","안녕", "C 언어");
+	printf("\n");
+}
+
